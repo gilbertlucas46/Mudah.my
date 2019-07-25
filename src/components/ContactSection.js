@@ -45,6 +45,12 @@ const Section = styled.section`
     padding : 1rem 1.9rem .4rem;
     margin-bottom: 1.4rem;
     border-bottom: 1px solid #F0F0EE;
+    > .itemName {
+      div {
+        line-height: 1rem;
+        margin-bottom: .5rem;
+      }
+    }
     .itemName {
       color: #707070;
       font-size: .8rem;
