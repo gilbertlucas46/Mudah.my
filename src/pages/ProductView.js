@@ -177,3 +177,13 @@ class ProductView extends Component {
 }
 
 export default ProductView;
+
+/* I don't have enough time to finish related products below
+  so I I think I'll just explain how how going to work with it.
+
+  I also haven't finished the mobile version but I'm 100% sure I can do it.
+*/
+// TODO: Create new component for the similar items
+// TODO: Do another fetch there based on the match.params.id /:id
+// ? its almost going to be similar with this component with the use of fetch async await
+// TODO: Import {similarProducts } component here
